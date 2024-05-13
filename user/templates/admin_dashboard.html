@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{% static 'css/admin_dashboard.css' %}">
+</head>
+<body>
+    <div class="full-screen">
+        <div class="left-side">
+            <div>
+                <h2>Hello Admin</h2>
+                <div class="options hide">
+                    <ul>
+                        <li id="home"><a href="#">Home</a></li>
+                        <li id="user"><a href="#" >User</a></li>
+                        <li id="query"><a href="#" >Query</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hamburger-menu">
+                <img src="{% static 'img/hambager.png' %}" alt="Hamburger Menu" style="height: 25px; width: 25px;">
+            </div>
+        </div>
+        <div class="right-side" id="target_element">
+        </div>
+    </div>
+      <script src="{% static 'js/admin_dashboard.js' %}"></script>
+    <script src="{% static 'js/prevent_back.js' %}"></script>
+  </body>
+</html>

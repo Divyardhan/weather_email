@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="{% url 'login' %}" method="post" autocomplete="off">
+            {% csrf_token %}
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required >
+            <p class="error" id="emailError">Email cannot be empty</p>
+            <p class="error" id="validEmail">Enter a valid email address</p>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" required placeholder="Password" required>
+            <p class="error" id="pwdError">Password cannot be empty</p>
+            <input type="hidden" name="latitude" id="latitude" value="">
+            <input type="hidden" name="longitude" id="longitude" value="">
+            <button type="button" id="login">Login</button>
+        </form>
+        <center>
+            <p>Don't have an account? <a href="{% url 'verify_email_send' %}">Create_one</a></p>
+            <p><a href="{% url 'fpwd' %}">Forgot_Password</a></p>
+        </center>
+        {% if flag1 %}
+            <p class="error1">Email or Password is Incorrect</p>
+        {% endif %}
+        {% if flag2 %}
+            <p class="error1">Account Disabled by Admin. Please contact Admin</p>
+        {% endif %}
+        {% if flag4 %}
+            <p class="error1">You don't have an account. Please create one</p>
+        {% endif %}
+        {% if flag3 %}
+            <p class="error1">Account is not verified yet. Please check your email and press the link.</p>
+        {% endif %}
+    </div>
+    <script src="{% static 'js/login.js' %}"></script>
+    <script src="{% static 'js/prevent_back.js' %}"></script>
+</body>
+</html>

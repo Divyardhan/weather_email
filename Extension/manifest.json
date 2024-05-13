@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Location Tracker",
+  "version": "1.0",
+  "description": "Chrome extension to send user location to server every 30 minutes.",
+  "permissions": [
+    "alarms",
+    "geolocation"
+  ],
+  "host_permissions": [
+    "http://192.168.71.60:8888/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

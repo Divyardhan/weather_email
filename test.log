@@ -1,0 +1,603 @@
+2024-05-13 10:45:52,803 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 10:45:53,787 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 10:45:53,789 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 10:45:53,790 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 10:45:53,807 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 10:45:55,125 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 10:45:55,127 root INFO location recieved successfull ('__')
+2024-05-13 10:53:58,771 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 10:53:59,435 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 10:53:59,437 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 10:53:59,438 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 10:53:59,440 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 10:54:00,107 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 10:54:00,109 root INFO location recieved successfull ('__')
+2024-05-13 10:58:35,962 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 10:58:36,516 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 10:58:36,517 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 10:58:36,518 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 10:58:36,519 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 10:58:37,274 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 10:58:37,277 root INFO location recieved successfull ('__')
+2024-05-13 11:06:07,169 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:06:07,554 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:06:07,945 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:06:07,946 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:06:07,947 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:06:07,948 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:06:08,050 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:06:08,052 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:06:08,052 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:06:08,054 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:06:08,637 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:06:08,638 root INFO location recieved successfull ('__')
+2024-05-13 11:06:09,164 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:06:09,166 root INFO location recieved successfull ('__')
+2024-05-13 11:08:13,063 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:08:13,565 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:08:13,567 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:08:13,568 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:08:13,570 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:08:14,333 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:08:14,336 root INFO location recieved successfull ('__')
+2024-05-13 11:10:46,406 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:10:46,955 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:10:46,956 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:10:46,958 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:10:46,959 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:10:47,441 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:10:47,442 root INFO location recieved successfull ('__')
+2024-05-13 11:11:08,509 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:11:09,257 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:11:09,259 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:11:09,259 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:11:09,260 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:11:10,626 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:11:10,910 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:11:10,912 root INFO location recieved successfull ('__')
+2024-05-13 11:11:10,990 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:11:10,991 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:11:10,992 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:11:10,993 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:11:11,700 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:11:11,702 root INFO location recieved successfull ('__')
+2024-05-13 11:16:57,143 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:16:57,510 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:16:57,511 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:16:57,512 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:16:57,513 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:16:58,785 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:16:58,787 root INFO location recieved successfull ('__')
+2024-05-13 11:18:15,631 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:18:16,076 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:18:16,077 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:18:16,078 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:18:16,079 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:18:16,564 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:18:16,567 root INFO location recieved successfull ('__')
+2024-05-13 11:18:18,332 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:18:18,823 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:18:18,825 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:18:18,826 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:18:18,828 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:18:19,345 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:18:19,347 root INFO location recieved successfull ('__')
+2024-05-13 11:18:19,580 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:18:20,825 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:18:20,827 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:18:20,827 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:18:20,829 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:18:21,603 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:18:21,605 root INFO location recieved successfull ('__')
+2024-05-13 11:19:30,723 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:19:31,220 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:19:31,221 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:19:31,222 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:19:31,223 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:19:31,729 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:19:31,732 root INFO location recieved successfull ('__')
+2024-05-13 11:24:15,437 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:24:15,994 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:24:15,995 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:24:15,996 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:24:15,997 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:24:16,867 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:24:16,869 root INFO location recieved successfull ('__')
+2024-05-13 11:33:35,452 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:33:36,377 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:33:36,378 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:33:36,379 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:33:36,380 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:33:38,179 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:33:38,181 root INFO location recieved successfull ('__')
+2024-05-13 11:37:44,535 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:37:45,105 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:37:45,106 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:37:45,107 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:37:45,108 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:37:45,898 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:37:45,902 root INFO location recieved successfull ('__')
+2024-05-13 11:39:49,247 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:39:49,951 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:39:49,953 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:39:49,954 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:39:49,957 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:39:50,684 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:39:50,686 root INFO location recieved successfull ('__')
+2024-05-13 11:39:51,689 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:39:52,033 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:39:52,036 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:39:52,037 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:39:52,039 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:39:52,538 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:39:52,542 root INFO location recieved successfull ('__')
+2024-05-13 11:41:05,132 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:41:05,428 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:41:05,429 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:41:05,430 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:41:05,432 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:41:06,092 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:41:06,094 root INFO location recieved successfull ('__')
+2024-05-13 11:43:22,058 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:43:22,362 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:43:22,363 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:43:22,365 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:43:22,366 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:43:23,394 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:43:23,396 root INFO location recieved successfull ('__')
+2024-05-13 11:43:45,643 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:43:46,097 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:43:46,099 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:43:46,100 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:43:46,102 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:43:46,588 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:43:46,590 root INFO location recieved successfull ('__')
+2024-05-13 11:45:33,890 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:45:34,640 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:45:34,641 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:45:34,642 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:45:34,643 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:45:35,195 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:45:35,197 root INFO location recieved successfull ('__')
+2024-05-13 11:46:45,737 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:46:46,281 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:46:46,283 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:46:46,283 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:46:46,285 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:46:47,082 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:46:47,084 root INFO location recieved successfull ('__')
+2024-05-13 11:46:54,237 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:46:55,067 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:46:55,069 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:46:55,070 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:46:55,072 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:46:55,895 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:46:55,898 root INFO location recieved successfull ('__')
+2024-05-13 11:49:38,872 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:49:39,367 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:49:39,368 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:49:39,368 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:49:39,369 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:49:41,471 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:49:41,474 root INFO location recieved successfull ('__')
+2024-05-13 11:49:56,441 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:49:56,979 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 11:49:56,980 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:49:56,981 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:49:56,983 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 11:49:57,827 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 11:49:57,829 root INFO location recieved successfull ('__')
+2024-05-13 11:51:02,635 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:51:12,940 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:12,941 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:12,968 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:51:17,115 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:51:23,031 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:23,032 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:23,033 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:51:25,551 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:51:27,129 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:27,130 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:27,131 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:51:28,895 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:51:33,039 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:33,041 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:33,043 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:51:35,630 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:35,631 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:35,632 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:51:37,137 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:37,138 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:37,139 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:51:38,933 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:38,934 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:38,935 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:51:43,441 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:51:45,630 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:45,631 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:45,632 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:51:47,231 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:47,232 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:47,234 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:51:48,937 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:48,938 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:48,940 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:51:55,632 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:55,633 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:55,635 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:51:57,266 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:51:59,044 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:51:59,045 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:51:59,046 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:52:02,612 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:52:05,680 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:52:09,170 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:52:12,629 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:52:12,631 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:52:12,633 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:52:22,629 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:52:22,631 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:52:22,633 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:52:32,636 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:52:32,637 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:52:32,638 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:52:42,775 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:53:43,634 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:53:43,921 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:53:53,629 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:53:53,631 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:53:53,633 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:53:53,937 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:53:53,939 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:53:53,941 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:54:03,640 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:54:03,641 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:54:03,642 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:54:04,031 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:54:04,033 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:54:04,034 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:54:13,736 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:54:13,738 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:54:13,740 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:54:14,032 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:54:14,034 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:54:14,036 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:54:23,880 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:54:24,169 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:58:08,699 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:58:14,745 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 11:58:19,128 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:58:19,129 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:58:19,131 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:58:24,835 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:58:24,836 urllib3.connectionpool WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:58:24,837 urllib3.connectionpool DEBUG Starting new HTTP connection (2): nominatim.openstreetmap.org:80
+2024-05-13 11:58:29,146 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:58:29,147 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:58:29,148 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:58:34,930 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:58:34,932 urllib3.connectionpool WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:58:34,934 urllib3.connectionpool DEBUG Starting new HTTP connection (3): nominatim.openstreetmap.org:80
+2024-05-13 11:58:39,232 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:58:39,233 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:58:39,234 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:58:45,027 urllib3.util.retry DEBUG Incremented Retry for (url='/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+2024-05-13 11:58:45,028 urllib3.connectionpool WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 11:58:45,029 urllib3.connectionpool DEBUG Starting new HTTP connection (4): nominatim.openstreetmap.org:80
+2024-05-13 11:58:49,376 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:58:55,068 django.request ERROR Internal Server Error: /update_location/
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divyardhan.jadeja\college\weather_email\user\views.py", line 158, in update_location
+    city = location['address']['city']
+           ~~~~~~~~^^^^^^^^^^^
+TypeError: 'bool' object is not subscriptable
+2024-05-13 11:59:58,765 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:00:00,342 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:00:00,343 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:00:00,344 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:00:00,345 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:00:02,014 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:00:02,016 root INFO location recieved successfull ('__')
+2024-05-13 12:01:08,741 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:01:09,175 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:01:09,176 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:01:09,177 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:01:09,178 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:01:09,853 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:01:09,855 root INFO location recieved successfull ('__')
+2024-05-13 12:02:21,761 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:02:22,188 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:02:22,190 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:02:22,190 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:02:22,192 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:02:22,847 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:02:22,849 root INFO location recieved successfull ('__')
+2024-05-13 12:03:28,927 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:03:29,511 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:03:29,513 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:03:29,513 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:03:29,515 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:03:30,280 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:03:30,284 root INFO location recieved successfull ('__')
+2024-05-13 12:03:32,357 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:03:32,766 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:03:32,767 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:03:32,769 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:03:32,770 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:03:33,379 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:03:33,381 root INFO location recieved successfull ('__')
+2024-05-13 12:08:06,473 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:08:06,856 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:08:06,858 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:08:06,860 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:08:06,861 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:08:07,492 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:08:07,495 root INFO location recieved successfull ('__')
+2024-05-13 12:09:26,297 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:09:26,975 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:09:26,977 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:09:26,977 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:09:26,979 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:09:27,668 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:09:27,670 root INFO location recieved successfull ('__')
+2024-05-13 12:10:42,026 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:10:42,426 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:10:42,428 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:10:42,430 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:10:42,432 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:10:43,059 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:10:43,062 root INFO location recieved successfull ('__')
+2024-05-13 12:11:25,463 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:11:25,874 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:11:25,875 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:11:25,876 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:11:25,877 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:11:26,531 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:11:26,533 root INFO location recieved successfull ('__')
+2024-05-13 12:12:30,333 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:12:30,881 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:12:30,882 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:12:30,884 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:12:30,885 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:12:31,577 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:12:31,579 root INFO location recieved successfull ('__')
+2024-05-13 12:13:42,682 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:13:43,096 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:13:43,097 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:13:43,098 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:13:43,099 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:13:43,744 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:13:43,747 root INFO location recieved successfull ('__')
+2024-05-13 12:17:03,234 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:17:03,935 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:17:03,937 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:17:03,939 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:17:03,941 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:17:04,551 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:17:04,553 root INFO location recieved successfull ('__')
+2024-05-13 12:17:17,648 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:17:18,036 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:17:18,037 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:17:18,038 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:17:18,039 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:17:18,740 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:17:18,743 root INFO location recieved successfull ('__')
+2024-05-13 12:18:31,164 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:18:31,540 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:18:31,541 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:18:31,542 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:18:31,543 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:18:32,181 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:18:32,183 root INFO location recieved successfull ('__')
+2024-05-13 12:18:41,166 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:18:41,548 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:18:41,549 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:18:41,550 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:18:41,551 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:18:42,151 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:18:42,153 root INFO location recieved successfull ('__')
+2024-05-13 12:18:42,389 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:18:42,758 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:18:42,760 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:18:42,762 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:18:42,764 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:18:43,362 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:18:43,364 root INFO location recieved successfull ('__')
+2024-05-13 12:19:00,231 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:19:00,716 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:19:00,718 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:19:00,719 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:19:00,721 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:19:01,433 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:19:01,436 root INFO location recieved successfull ('__')
+2024-05-13 12:19:34,187 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:19:34,698 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:19:34,699 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:19:34,700 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:19:34,701 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:19:35,474 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:19:35,493 root INFO location recieved successfull ('__')
+2024-05-13 12:19:37,233 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:19:37,689 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:19:37,698 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:19:37,699 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:19:37,700 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:19:38,386 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:19:38,395 root INFO location recieved successfull ('__')
+2024-05-13 12:20:58,179 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:20:58,541 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:20:58,542 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:20:58,543 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:20:58,544 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:20:59,517 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:20:59,521 root INFO location recieved successfull ('__')
+2024-05-13 12:22:28,524 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:22:29,077 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:22:29,078 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:22:29,079 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:22:29,081 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:22:29,783 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:22:29,785 root INFO location recieved successfull ('__')
+2024-05-13 12:22:33,678 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:22:34,243 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:22:34,244 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:22:34,245 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:22:34,246 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:22:35,082 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:22:35,086 root INFO location recieved successfull ('__')
+2024-05-13 12:22:44,715 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:22:45,193 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:22:45,194 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:22:45,195 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:22:45,196 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:22:45,922 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:22:45,924 root INFO location recieved successfull ('__')
+2024-05-13 12:26:41,511 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:26:41,905 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:26:41,907 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:26:41,908 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:26:41,909 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:26:42,595 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:26:42,597 root INFO location recieved successfull ('__')
+2024-05-13 12:32:06,491 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:32:07,243 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:32:07,244 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:32:07,245 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:32:07,246 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:32:07,989 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:32:07,992 root INFO location recieved successfull ('__')
+2024-05-13 12:33:22,988 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 12:33:23,421 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 12:33:23,422 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 12:33:23,423 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 12:33:23,424 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 12:33:24,104 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 12:33:24,107 root INFO location recieved successfull ('__')
+2024-05-13 13:20:58,333 urllib3.connectionpool DEBUG Starting new HTTP connection (1): nominatim.openstreetmap.org:80
+2024-05-13 13:20:59,138 urllib3.connectionpool DEBUG http://nominatim.openstreetmap.org:80 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 301 0
+2024-05-13 13:20:59,140 urllib3.util.retry DEBUG Incremented Retry for (url='http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2024-05-13 13:20:59,140 urllib3.poolmanager INFO Redirecting http://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 -> https://nominatim.openstreetmap.org/reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1
+2024-05-13 13:20:59,142 urllib3.connectionpool DEBUG Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2024-05-13 13:21:00,592 urllib3.connectionpool DEBUG https://nominatim.openstreetmap.org:443 "GET /reverse?format=json&lat=23.0258&lon=72.5873&zoom=18&addressdetails=1 HTTP/1.1" 200 0
+2024-05-13 13:21:00,594 root INFO location recieved successfull ('__')

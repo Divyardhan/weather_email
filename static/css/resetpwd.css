@@ -1,0 +1,122 @@
+/* resetpwd.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2980b9, #2c3e50);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:disabled {
+    background-color: #f2f2f2;
+    cursor: not-allowed;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.error {
+    display: none;
+    color: #dc3545;
+    margin-top: 5px;
+}
+.error1 {
+    display: none;
+    color: #dc3545;
+    margin-top: 5px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.submit-disabled {
+    pointer-events: none; /* Disable pointer events */
+    opacity: 0.5; /* Optionally reduce opacity */
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button {
+        font-size: 14px;
+    }
+}

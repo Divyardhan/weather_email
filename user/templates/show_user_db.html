@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Database</title>
+</head>
+<body>
+    <h1>User Database</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Location</th>
+                <th>pwd</th>
+                <th>verified</th>
+                <th>service provided</th>
+                <th>isActive</th>
+                <th>deleted</th>
+                <th>disabled</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.location }}</td>
+                <td>{{ user.pwd }}</td>
+                <td>{{ user.verified }}</td>
+                <td>{{ user.service_provided }}</td>
+                <td>{{ user.isActive}}</td>
+                <td>{{ user.deleted }}</td>
+                <td>{{ user.disabled }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Date & Time</th>
+                <th>Query</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for query in querys %}
+            <tr>
+                <td>{{ query.email }}</td>
+                <td>{{ query.date }}</td>
+                <td>{{ query.query }}</td>
+                <td>{{ query.status }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

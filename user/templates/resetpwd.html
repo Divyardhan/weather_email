@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/resetpwd.css' %}">
+</head>
+<body>
+    {% if user %}
+    <div class="container">
+        <h2>Hello! {{ user.name }}</h2>
+        <form action="{% url 'pwdreset' %}" method="post">
+            {% csrf_token %}
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email" value="{{user.email}}" readonly>
+            <p id="emailError" class="error">Email cannot be Empty</p>
+            <label for="p1">New Password:</label>
+            <input type="password" name="p1" id="p1" placeholder="New Password" required>
+            <p id="pwd1Error" class="error">Password cannot be Empty</p>
+            <label for="p2">Re-Enter Password</label>
+            <input type="password" name="p2" id="p2" placeholder="Re-Enter New Password" required>
+            <p id="pwd2Error" class="error">Password cannot be Empty</p>
+            <p class="error" id="con">Password must be at least 8 characters long and contain at least one lowercase letter, one uppercase letter, one digit, and one special character.</p>
+            <button id="submitbtn">Submit</button>
+            <p id="pwdError" class="error1">Password should be same</p>
+        </form>
+    </div>
+    {% endif %}
+    <script src="{% static 'js/resetpwd.js' %}"></script>
+</body>
+</html>

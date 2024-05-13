@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        {% if flag %}
+            <h1>Verification mail is sent to this email: {{ email }} </h1>
+            <p>click on it to verify your account</p>
+        {% elif flag1 %}
+            <h1>Password resert link is sent to you Email ({{ email }})</h1>
+        {% else %}
+            <h1>Your Email({{ email }}) has been verified</h1>
+            <button type="button" id="login">Go To Login Page</button>
+        {% endif %}
+    
+    <script>
+        document.getElementById("login").addEventListener("click", function(){
+            window.location.href = 'http://192.168.71.60:8888/login'
+        });
+    </script>
+</body>

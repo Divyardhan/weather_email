@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.full-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.left-side {
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh; /* 100% of viewport height */
+    background-color: #1a88fd; /* optional, just for demonstration */
+}
+.left-side h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: white;
+}
+.right-side {
+    float: left;
+    width: 85%;
+    height: 100vh;
+    background-color: white; 
+    display: flex;
+    flex-direction: column; 
+    overflow-y: auto; /* Add scrollbar if content overflows vertically */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* hamburger-menu */
+
+.hamburger-menu {
+    display: none;
+}
+.options {
+    width: 100%;
+}
+.options ul {
+    list-style: none; /* Remove bullet points */
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.options ul li {
+    padding: 10px;
+    list-style: none;
+    cursor: pointer;
+    border-bottom:#ccc solid 1px;
+}
+.options ul li a {
+   text-decoration: none;
+   color: white;
+}
+.options ul li a:hover {
+   text-decoration: underline;
+   font-style: italic;
+   color: white;
+}
+
+.error {
+    color:red;
+}
+
+
+
+/* Base styles for the user section */
+.user {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    color: #333333; /* Dark text color */
+}
+
+.user h1 {
+    font-size: 24px;
+    color: #1a88fd; /* Primary blue heading color */
+    margin-bottom: 20px;
+}
+
+/* Search bar styles */
+.user input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.user button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #1a88fd; /* Primary blue button background */
+    color: #ffffff; /* White button text color */
+}
+
+.user button:hover {
+    background-color: #0d5d91; /* Darker blue button background on hover */
+}
+
+/* User table styles */
+.user #queryTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user #queryTable th, #queryTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center; /* Center-align table content */
+}
+
+.user #queryTable th {
+    background-color: #1a88fd; /* Primary blue header background */
+    color: #ffffff; /* White header text color */
+}
+
+.user #queryTable tbody tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user #queryTable tbody tr:hover {
+    background-color: #f9f9f9; /* Light gray row background on hover */
+}
+
+/* Base styles for the home section */
+.home {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    color: #333333; /* Dark text color */
+}
+
+.home h1 {
+    font-size: 24px;
+    color: #1a88fd; /* Yellow heading color */
+    margin-bottom: 20px;
+}
+
+/* Styling for Overview and Query Management sections */
+.home .summary,
+.home .query-management {
+    background-color: #f9f9f9; /* Light gray background */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for individual summary and query summaries */
+.home .summary-item,
+.home .query-summary {
+    margin-bottom: 15px;
+}
+
+.home .summary-item p,
+.home .query-summary p {
+    margin: 0;
+    color: #666666; /* Medium gray text color */
+}
+
+.home .summary-item span,
+.home .query-summary span {
+    font-weight: bold;
+}
+
+.query {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    color: #333333; /* Dark text color */
+}
+
+.query h1 {
+    font-size: 24px;
+    color: #1a88fd; /* Yellow heading color */
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+.query table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.query th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.query th {
+    background-color: #1a88fd; /* Primary blue header background */
+    color: #ffffff; /* White header text color */
+}
+
+.query tbody tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.query tbody tr:hover {
+    background-color: #f9f9f9; /* Light gray row background on hover */
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .left-side {
+        position: relative;
+        float: left;
+        width: 100%;
+        height: 64px; /* 100% of viewport height */
+        background-color: #1a88fd; /* optional, just for demonstration */
+    }
+    
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 19px;
+        left: 10px;
+        cursor: pointer; 
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .options ul {
+        list-style: none;
+        padding: 0;
+        background-color: #1a88fd;
+    }
+
+    .options ul li {
+        padding: 5px;
+    }
+
+    .right-side {
+        width: 100%;
+        background-color: white; /* optional, just for demonstration */
+    }
+
+    .user {
+        padding: 10px;
+    }
+
+    .user h1 {
+        font-size: 20px;
+    }
+
+    .user input[type="text"] {
+        width: 100%;
+    }
+
+    .home {
+        padding: 10px;
+    }
+
+    .home h1 {
+        font-size: 20px;
+    }
+
+    .query {
+        padding: 10px;
+    }
+
+    .query h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        flex-direction: column; /* Change flex-direction to column for smaller screens */
+    }
+
+}

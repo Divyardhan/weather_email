@@ -1,0 +1,75 @@
+<div class="query">
+    <h1>Query Requested</h1>
+     <!-- Query table -->
+     {% if query_recieved %}
+     <table border="1" id="queryTable">
+        <thead>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Date & Time</th>
+                    <th>Query</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for query in query_recieved %}
+                <tr onclick="queryUpdate('{{ query.query_id }}')">
+                    <td>{{ query.email }}</td>
+                    <td>{{ query.date }}</td>
+                    <td>{{ query.query }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+    </table>
+    {% else %}
+    <p>No new queries have been requested.</p>
+    {% endif %}
+    <h1>Query under Processing</h1>
+    {% if query_processing %}
+    <table border="1" id="queryTable">
+        <thead>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Date & Time</th>
+                    <th>Query</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for query in query_processing %}
+                <tr onclick="queryUpdate('{{ query.query_id }}')">
+                    <td>{{ query.email }}</td>
+                    <td>{{ query.date }}</td>
+                    <td>{{ query.query }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+    </table>
+    {% else %}
+    <p>No queries is under processing.</p>
+    {% endif %}
+    <h1>Query Solved</h1>
+    {% if query_solved %}
+    <table border="1" id="queryTable">
+        <thead>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Date & Time</th>
+                    <th>Query</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for query in query_solved %}
+                <tr>
+                    <td>{{ query.email }}</td>
+                    <td>{{ query.date }}</td>
+                    <td>{{ query.query }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+    </table>
+    {% else %}
+    <p>No queries solved.</p>
+    {% endif %}
+</div>

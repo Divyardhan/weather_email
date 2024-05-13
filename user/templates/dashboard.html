@@ -1,0 +1,172 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+</head>
+<body>
+  {% if user %}
+    <div class="full-screen">
+      <div class="left-side">
+        <div>
+          <h2>Welcome! {{user.name}}</h2>
+          <div class="options hide">
+            <ul>
+              <li id="report"><a href="#">Home (weather report)</a></li>
+              <li id="extension"><a href="#">Download Extension</a></li>
+              <li id="service"><a href="#">Service Provided</a></li>
+              <li id="profile"><a href="#" >Edit Profile</a></li>
+              <li><a href="{% url 'pwdreset' %}" onclick="return confirm('Are you sure you want to change your password?')">Change Password</a></li>
+              <li id="query"><a href="#" >Query</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hamburger-menu">
+            <img src="{% static 'img/hambager.png' %}" alt="Hamburger Menu" style="height: 25px; width: 25px;">
+        </div>
+        <div class="together">
+          <form method="post" class="delete" action="{% url 'delete' %}">
+            {% csrf_token %}
+            <button id="delete"><img src="{% static 'img/delete.png' %}" alt="delete" style="height: 32px; width: 32px;" onclick="return confirm('Are you sure you want to delete this account?')"></button>
+            <span>Delete</span>
+          </form>
+          <form method="post" class="logout" action="{% url 'logout' %}">
+            {% csrf_token %}
+            <button id="logout"><img src="{% static 'img/logout.png' %}" alt="logout" style="height: 30px; width: 30px;"></button>
+            <span>Logout</span>
+          </form>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="report">
+          <header>
+            <h1>Welcome to Weather Report Mailing Service!</h1>
+          </header>
+      
+          <section id="about">
+              <h2>About Us</h2>
+              <p>We are dedicated to providing you with the most convenient and efficient weather reporting experience through
+                  our innovative Chrome Extension. With a seamless integration into your browser, our extension delivers
+                  up-to-date weather forecasts straight to your inbox, ensuring you're always prepared for whatever nature has
+                  in store.</p>
+          </section>
+      
+          <section id="features">
+              <h2>Features</h2>
+              <ul>
+                <li><strong>Customized Reports:</strong> Tailor your weather reports to specific locations of interest,
+                    keeping you informed about the weather conditions that matter most to you.</li>
+                <li><strong>Timely Updates:</strong> Receive regular updates on weather forecasts, ensuring you're always
+                    aware of any changes in the weather patterns.</li>
+                <li><strong>Seamless Integration:</strong> Our Chrome Extension seamlessly integrates into your browsing
+                    experience, allowing you to access weather reports with ease.</li>
+                <li><strong>Convenient Email Delivery:</strong> Get weather reports delivered directly to your email inbox,
+                    making it easy to stay informed no matter where you are.</li>
+              </ul>
+          </section>
+      
+          <section id="how-it-works">
+              <h2>How It Works</h2>
+              <ol>
+                <li><strong>Install the Extension:</strong> Simply install our Chrome Extension from the Chrome Web Store to
+                    get started.</li>
+                <li><strong>Customize Your Preferences:</strong> Set your preferred locations and frequency of updates to
+                    tailor the service to your needs.</li>
+                <li><strong>Stay Informed:</strong> Sit back and relax as our extension delivers timely weather reports
+                    straight to your email inbox.</li>
+              </ol>
+          </section>
+      
+          <section id="get-started">
+              <h2>Get Started</h2>
+              <p>Ready to take control of your weather reporting experience? Install our Chrome Extension now and enjoy
+                  hassle-free access to accurate weather forecasts delivered directly to you.</p>
+          </section>
+      
+          <section id="contact-us">
+              <h2>Contact Us</h2>
+              <p>Have questions or feedback? We'd love to hear from you! Reach out to our support team at <a href="mailto:support@example.com">support@example.com</a> for assistance.</p>
+          </section>
+      
+          <section id="stay-connected">
+              <h2>Stay Connected</h2>
+              <p>Follow us on social media for the latest updates and tips on making the most of our Weather Report Mailing
+                  Service.</p>
+          </section>
+      
+          <footer>
+              <p>&copy; 2024 Weather Report Mailing Service</p>
+          </footer>
+        </div>
+        <div class="extension">
+          <h1>Steps to Add Chrome Extension</h1>
+          <ol>
+            <li>Download the zip file from bellow link and extract it. Also remember the path of the folder</li>
+            <li>Open Google Chrome browser on your device.</li>
+            <li>Click the puzzle piece icon at the top-right corner of Chrome.</li>
+            <li>Click on Manage extensions.</li>
+            <li>Turn on Developer mode on the top-right corner.</li>
+            <li>Click on the "Load Unpacked" button on the top-left bellow Extensions.</li>
+            <li>Navigate to the unzipped folder named "Extension".</li>
+            <li>Then press open folder</li>
+            <li>The extension named "Location Tracker" will be added.</li>
+            <li>Keep this Extension alive from now.</li>
+          </ol>
+          <a href="{% url 'download' %}">Click here to download Chrome Extension zip file</a>
+        </div>
+        <div class="service">
+          <p>Weather Report for Specific City</p>
+          <form id="searchForm">
+            {% csrf_token %}
+            <input type="text" id="location" name="location" placeholder="Enter City">
+            <button id="search">Search</button>
+            <p id="cityError" style="display: none; color: red;">Enter a city</p>
+          </form>
+          <div class="spinner" id="spinner">
+            <div class="dot"></div>
+          </div>
+          <div id="loading" style="display: none;">
+            <p>We are collecting Data</p>
+          </div>
+          <div id="weatherReport">
+          </div>
+        </div>
+        <div class="profile">
+          <h1>Edit Profile</h1>
+          <form action="{% url 'edit' %}" method="post" id="edit_profile">
+            {% csrf_token %}
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" value="{{user.name}}" autocomplete="{{user.name}}"><br>
+            <p id="nameError" class="error">Name field cannot be empty!</p>
+            <label for="toggleSwitch">Turn service On/Off :</label>
+            <input type="checkbox" name="offon" id="toggleSwitch" {% if user.service_provided %}checked{% endif %}>
+            <button id="edit">Save</button>
+          </form>
+        </div>
+        <div class="Query">
+          <h1>Any Query</h1>
+          <form action="{% url 'query' %}" method="post" class="problem_submit">
+            {% csrf_token %}
+            <label for="problem">Query:</label><br>
+            <input type="text" name="problem" id="problem" placeholder="What's your Query"><br>
+            <input type="hidden" id="email" name="email" value="{{user.email}}">
+            <input type="hidden" name="date" id="date" value="">
+            <p class="error" id="empty_query" style="display: none;">Cannot submit empty query</p>
+            <p class="error" id="length_error" style="display: none;">Query cannot be less then 10 character</p>
+            <button id="query_submit">Submit</button>
+            <button id="re">Refresh</button>
+          </form>
+          <table id="queryTable">
+          </table>
+        </div>
+      </div>
+    </div>
+  {% endif%}
+    <script src="{% static 'js/dashboard.js' %}"></script>
+    <script src="{% static 'js/prevent_back.js' %}"></script>
+  </body>
+</html>

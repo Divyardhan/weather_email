@@ -1,0 +1,44 @@
+<div class="home">
+    <h1>Overview</h1>
+    <div class="summary">
+        <div class="summary-item">
+            <p>Total number of users:</p>
+            <span>{{ total_users }}</span>
+        </div>
+        <div class="summary-item">
+            <p>Total number of logged-in users:</p>     <span>{{ total_logged_in_users }}</span>
+            
+        </div>
+        <div class="summary-item">
+            <p>Total number of disabled users:</p>      <span>{{ total_disabled_users }}</span>
+            
+        </div>
+        <div class="summary-item">
+            <p>Total number of users taking service:</p>
+            <span>{{ total_users_taking_service }}</span>
+        </div>
+        <div class="summary-item">
+            <p>Most users are located in:</p>
+            <span>{{ location_with_most_users }}</span>
+        </div>
+    </div>
+    <h1>Query Management</h1>
+    <div class="query-management">
+        <div class="query-summary">
+            <p>Total number of queries:</p>
+            <span>{{ total_queries }}</span>
+        </div>
+        <div class="query-summary">
+            <p>Total number of unattended queries:</p>
+            <span>{{ total_unattended_queries }}</span>
+        </div>
+        <div class="query-summary">
+            <p>Total number of queries under processing:</p>
+            <span>{{ total_queries_under_processing }}</span>
+        </div>
+        <div class="query-summary">
+            <p>Total number of queries solved:</p>
+            <span>{{ total_queries_solved }}</span>
+        </div>
+    </div>
+</div>

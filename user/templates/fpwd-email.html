@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/fpwd-email.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter email</h2>
+        <p>We will send the password reset link to this email address</p>
+        <form action="{% url 'send_pwd_email' %}" method="post" autocomplete="off" id="form">
+            {% csrf_token %}
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+            <p class="error" id="emailError">Email cannot be empty</p>
+            <p class="error" id="validEmail">Enter a valid email address</p>
+            <button id="button" type="submit">Submit</button>
+        </form>
+        <center>
+            <p>Back to <a href="{% url 'login' %}">Login</a></p>
+        </center>
+        {% if flag2 %}
+            <p class="error1">Your Email is not verified. please verify it and then try to login</p>
+        {% endif %}
+        {% if flag3 %}
+            <p class="error1">Your account has been disabled by Admin. Please contect the admin</p>
+        {% endif %}
+        {% if flag4 %}
+            <p class="error1">You donot have a account.<a href="{% url 'verify_email_send' %}">Create_one</a></p>
+        {% endif %}
+    </div>
+    <script src="{% static 'js/fpwd-email.js' %}"></script>
+</body>
+</html>
